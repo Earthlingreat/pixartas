@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Pacifico&display=swap');
+body {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url('https://static-algoritmika-org.ngcdn.ru/uploads/student/70511078/69a3e83b8dd11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+  text-align: center;
+}
+
+
+h1{
+font-size: 67px;
+display: inline-block;
+color: white   ; 
+background-color: darkcyan;
+padding: 5px;
+border-radius: 20px;
+text-align: center;
+}
+
+h2{
+display: inline-block;
+color: white   ; 
+background-color: darkolivegreen;
+padding: 5px;
+border-radius: 20px;
+text-align: center;
+
+}
+
+h3 { 
+display: grid;
+color: white   ; 
+background-color: blueviolet;
+padding: 5px;
+border-radius: 20px;
+font-size: 67px;
+text-align: center;
+
+}
+
+
