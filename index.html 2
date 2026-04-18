@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel</title>
+</head>
+<body>
+
+<div class="field"> </div>
+
+<div class="palette">
+  <div class="color" style="background-color: #f01000;"></div>
+  <div class="color" style="background-color: #0400f0;"></div>
+  <div class="color" style="background-color: #008000;"></div>
+  <div class="color" style="background-color: #f0ec00;"></div>
+  <div class="color" style="background-color: #f09800;"></div>
+  <div class="color" style="background-color: #9900ff;"></div>
+  <div class="color" style="background-color: rgb(0, 0, 0);"></div>
+
+  
+  <button id="clear"> Очистка  </button>
+
+  <div class="color" style="background-color: translucent;">Ластик</div>
+
+</div>
+  
+</body>
+</html>
