@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+}
+
+.cell{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+ .palette {
+    display: flex ; /* или display: grid; */
+    flex-wrap:; /* перенос строк */
+    gap: 2px; /* расстояние между цветами */
+    padding: 10px;
+  }
+  /* Стили для каждого квадрата с цветом */
+  .color {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px; /* закругление углов */
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.2s; /* эффект при наведении */
+  }
+
+  .clear {
+    display: inline-block;
+  }
+
+.color:hover {
+    transform: scale(1); /* увеличение при наведении */
+  }
+
+body {
+  display : grid;
+}
+
